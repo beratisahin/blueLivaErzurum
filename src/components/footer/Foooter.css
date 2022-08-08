@@ -1,0 +1,254 @@
+.body{
+    background-color:#f8f9fa;
+    
+    width:100%;
+    padding-top: 25px;
+}
+
+ul li {
+  list-style-type:circle;
+  text-decoration: none;
+  color:black !important;
+
+  
+  
+}
+
+
+.bottomlist li:hover a:not(.active){
+  color:#2E6772 !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  
+  
+}
+
+.icon:hover{
+  color:#2E6772 !important;
+}
+.sebertech{
+  text-decoration: none !important;
+}
+.sebertech:hover{
+  color:#25d366 !important;
+}
+
+/* for desktop */
+.whatsapp_float {
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      bottom: 50px;
+      right: 30px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+        
+  }  
+
+  .roof-whatsapp{
+    background-color:green ;
+    position: fixed;
+    bottom: 45px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    transition: 0.6s linear;
+    animation-duration: 50ms;
+    border:2px green solid;
+    animation-name: roof-whatsapp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: 1000;
+  }
+
+ 
+  
+/* The animation code */
+@keyframes roof-whatsapp {
+  from {background-color: green;}
+  to {background-color: white}
+}
+
+
+
+  .roof-whatsapp:hover{
+    background-color:white ;
+    
+
+  }
+
+  .whatsapp-icon {
+        
+      font-size: x-large !important;
+      
+  }
+
+  .phone-icon{
+      
+    font-size: x-large !important;
+    color:white;
+  }
+
+  .phone-icon:hover{
+    color:rgb(54, 189, 27);
+  }
+
+/*  for phone icone */
+.phone_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 120px;
+  right: 30px;
+  background-color: #424de2;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+    
+}
+
+.roof-phone{
+  background-color:blueviolet ;
+  position: fixed;
+  bottom: 115px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  transition: 0.6s linear;
+  animation-duration: 50ms;
+  border:2px #3B099F solid;
+  animation-name: roof-phone;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  z-index: 1000;
+}
+
+/* The animation code */
+@keyframes roof-phone {
+  from {background-color: rgb(86, 86, 204);}
+  to {background-color: white}
+}
+
+
+.location_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 190px;
+  right: 30px;
+  background-color: #F58312;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+    
+}  
+
+.roof-location{
+background-color:#E6811C ;
+position: fixed;
+bottom: 185px;
+right: 25px;
+width: 60px;
+height: 60px;
+border-radius: 50px;
+transition: 0.6s linear;
+animation-duration: 50ms;
+border:2px #F55612 solid;
+animation-name: roof-location;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+z-index: 1000;
+}
+
+
+
+/* The animation code */
+@keyframes roof-location {
+from {background-color: orange}
+to {background-color: white}
+}
+
+
+
+.roof-location:hover{
+background-color:white ;
+
+
+}
+
+.location-icon {
+    
+  font-size: x-large !important;
+  
+}
+
+
+
+
+  /* for mobile */
+  @media screen and (max-width: 767px) {
+      
+
+      .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 45px;
+        right: 10px;
+        font-size: 22px;
+      }
+      .phone_float {
+        width: 40px;
+        height: 40px;
+        bottom: 100px;
+        right: 10px;
+        font-size: 22px;
+      }
+      .location_float {
+        width: 40px;
+        height: 40px;
+        bottom: 160px;
+        right: 10px;
+        font-size: 22px;
+    }
+      .roof-whatsapp{
+        bottom: 40px;
+        right: 5px;
+        width: 50px;
+        height: 50px;
+      }
+      .roof-phone{
+        bottom: 95px;
+        right: 5px;
+        width: 50px;
+        height: 50px;
+      }
+      .roof-location{
+        bottom: 155px;
+        right: 5px;
+        width: 50px;
+        height: 50px;
+      }
+      .whatsapp-icon {
+        margin-top: 5px;
+      }
+      .phone-icon{
+        margin-top: 5px;
+      }
+      .location-icon{
+        margin-top: 5px;
+      }
+      
+  }

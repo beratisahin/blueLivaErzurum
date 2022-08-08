@@ -1,0 +1,46 @@
+.blogTitle{
+    font-weight: bold;
+    color:#af832b;
+}
+.blogContent{
+    font-size: small;
+    text-align: justify !important;
+}
+.blogPhoto{
+    width: 100% !important;
+    height:20rem !important;
+    border:2px solid #C0C0C0 !important;
+    padding: 10px !important;
+    border-radius:1rem !important;
+    /*margin-bottom: 1rem !important;*/
+    margin:auto !important;
+
+}
+
+/* Opacity #1 */
+.blogPhoto{
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.blogPhoto:hover{
+	opacity: .5 !important;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar #C92798*/ 
+@media screen and (max-width: 700px) {
+    .blogtemplate{
+        height: 45rem !important;
+        margin-bottom: 1.5rem !important;
+        
+    }
+
+    .blogScrollText{
+        height: 150px !important;
+       
+    }
+    .blogtemplate{
+        margin-bottom: 2px !important;
+    }
+ }
