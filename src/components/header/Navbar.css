@@ -131,7 +131,7 @@ header {
 
 .BlueLivaLogo{
   width:20rem !important;
-  height:10rem;
+  height:10rem !important;
   
 }
 
@@ -261,8 +261,8 @@ header {
   }
 
   .BlueLivaLogo{
-    width:25rem;
-    height:10rem;
+    width:18rem !important;
+    height:9rem !important;
     float: left !important;
     margin-left: -12rem !important;
     margin-top: -1rem !important;
