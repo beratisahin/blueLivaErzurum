@@ -14,7 +14,7 @@
   }
   .image:hover{
     
-    border:2px outset #168B80;
+    border:2px outset #F0D26D !important;
     
   }
 
@@ -66,7 +66,7 @@
     font-size:x-large !important;
 
     color: white;
-    background-color: #0180c2;
+    background-color: #F0D26D;
     opacity: 0.7;
     width: 100% !important;
     height: 5rem !important;
@@ -113,7 +113,7 @@
     bottom:-60px;
     transition: 0.6s;
     transition-property: bottom;
-    border-top: 1px solid #0180c2; 
+    border-top: 1px solid #daac1d; 
     border-radius: 5px 5px 0px 0px;
   }
   .image:hover .more{
@@ -149,7 +149,7 @@
     font-weight: 900;
   }
   .more:hover .read-more{
-    color:#FFC155 !important;
+    color:black !important;
   }
   .more .icon-links i{
     color:#000;

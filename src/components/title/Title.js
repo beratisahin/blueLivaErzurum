@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import "./Title.css";
-import YL from "./Circle.png";
-import SDL from "./sdl.png";
-import S1 from "../header/SashaDiamondMenuLogo.png";
+import S1 from "../header/Erzurum2.png";
+
+
 
 export default class Title extends Component {
     render() {

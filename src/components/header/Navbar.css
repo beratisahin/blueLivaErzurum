@@ -38,7 +38,7 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
 
 }
@@ -53,7 +53,7 @@ header {
 .menu li a {
   display: block;
   text-decoration: none;
-  color: #0180c2; /*2E6772 */
+  color: #daac1d ; /*2E6772  #168B80*/ 
   padding: 1em 1.5em;
   font-size: smaller;
   font-weight: bold;
@@ -96,11 +96,10 @@ header {
 /*.menu > li:hover > a,*/
 .submenu > li:hover > a {
   background-color:#fcfcfc;
-  color: #af832b;
-  ;
+  color: var(--hover-color);
 }
 .menu > li:hover > a {
-  color:#af832b;
+  color:black;
 }
 
 /* Arrows */
@@ -130,8 +129,8 @@ header {
   transform: rotate(225deg);
 }
 
-.SashaDiamondLogo{
-  width:25rem;
+.BlueLivaLogo{
+  width:20rem !important;
   height:10rem;
   
 }
@@ -155,7 +154,8 @@ header {
   header {
 /*     position: relative; */
     padding: 1em 1.5em ;
-    height: 10rem;
+    height: 12rem;
+    
   }
   .menu {
     flex-flow: column;
@@ -187,7 +187,7 @@ header {
   .submenu {
     top: 0;
     padding-left: 1.5em;
-    border-left: 0.12em dotted #0180c2;
+    border-left: 0.12em dotted #3c667c;
   }
   .submenu .submenu {
     left: 0;
@@ -207,7 +207,7 @@ header {
     width: 2em;
     height: 0.25em;
     display: block;
-    background-color: #0180c2 !important;
+    background-color: #daac1d !important; 
     /*background: var(--light);*/
     position: absolute;
     right: 1rem !important;
@@ -260,12 +260,12 @@ header {
     transform: scaleY(1);
   }
 
-  .SashaDiamondLogo{
+  .BlueLivaLogo{
     width:25rem;
-    height:9rem;
+    height:10rem;
     float: left !important;
     margin-left: -12rem !important;
-    margin-top: -2rem !important;
+    margin-top: -1rem !important;
   }
  
 }

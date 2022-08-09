@@ -93,10 +93,10 @@ class ContactForm extends Component {
       };
 
       emailjs.send(
-        "service_p7l1rt9",
-        "template_w9xlvv6",
+        "service_dpk4g3s",
+        "template_1bf3fi8",
         templateParams,
-        "C_LxxXZIqplU6eFG7" 
+        "vOhS8spDL7DbODgYk" 
         
       );
 
@@ -191,7 +191,7 @@ class ContactForm extends Component {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                color: "#0180c2",
+                color: "#daac1d",
                 padding:"1%",
                 fontSize:"large",
                 
@@ -308,7 +308,7 @@ class ContactForm extends Component {
                   <button
                     className="btn btn-primary gonder"
                     type="submit"
-                    style={{ backgroundColor:"#0180c2",display:"block",margin:"auto",align:"justify" }}
+                    style={{ backgroundColor:"#daac1d",display:"block",margin:"auto",align:"justify" }}
                   >
                     <b>Gönder</b>
                   </button>

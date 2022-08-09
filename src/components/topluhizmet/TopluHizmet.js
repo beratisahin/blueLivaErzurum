@@ -17,7 +17,7 @@ export default function TopluHizmet() {
                 <Taslak 
                     taslaktitle="Medikal Cilt Bakımı"
                     taslakphoto={m2}
-                    taslaktext="Sasha Diamond Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+                    taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
                     taslaklink="/medikal-cilt-bakimi"
                 />
             </div>
@@ -25,7 +25,7 @@ export default function TopluHizmet() {
                 <Taslak 
                     taslaktitle="Robotix Lazer Epilasyon"
                     taslakphoto={m5}
-                    taslaktext="Sasha Diamond Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+                    taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
                     taslaklink="/robotix-lazer-epilasyon"
                 />
             </div>
@@ -33,7 +33,7 @@ export default function TopluHizmet() {
                 <Taslak 
                     taslaktitle="Hydrafacial Cilt Bakımı"
                     taslakphoto={m3}
-                    taslaktext="Sasha Diamond Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+                    taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
                     taslaklink="/hydrafacial-cilt-bakimi"
                 />      
             </div>
@@ -41,7 +41,7 @@ export default function TopluHizmet() {
                 <Taslak 
                     taslaktitle="G5 Masajı - Kavitasyon"
                     taslakphoto={m4}
-                    taslaktext="Sasha Diamond Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+                    taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
                     taslaklink="/g5-kavitasyon"
                 />
             </div>
@@ -49,7 +49,7 @@ export default function TopluHizmet() {
                 <Taslak 
                     taslaktitle="Kirpik Lifting"
                     taslakphoto={m1}
-                    taslaktext="Sasha Diamond Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+                    taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
                     taslaklink="/kirpik-lifting"
                 />
             </div>
@@ -57,7 +57,7 @@ export default function TopluHizmet() {
                 <Taslak 
                     taslaktitle="Kaş Laminasyonu "
                     taslakphoto={m6}
-                    taslaktext="Sasha Diamond Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+                    taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
                     taslaklink="/kas-laminasyonu"
                 />
             </div>

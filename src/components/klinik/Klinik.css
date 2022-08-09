@@ -33,7 +33,7 @@
  }
  .owlCarouselImageKlinik:hover{
      opacity: .5;
-    border: 3px groove #0180c2;
+    border: 3px groove #daac1d;
  }
  
 
@@ -56,10 +56,10 @@
    border-bottom: 1px solid lightgray;
 }
 .whatsapp_temp:hover{
-   background-color:#F2F9FF;
-   border-right: 1px solid #0180c2;
-   border-left: 1px solid #0180c2;
-   border-bottom: 1px solid #0180c2;
+   background-color:#FFFBEB;
+   border-right: 1px solid #daac1d;
+   border-left: 1px solid #daac1d;
+   border-bottom: 1px solid #daac1d;
 }
 
  /* for desktop */
@@ -119,7 +119,7 @@
 
 /* The animation code */
 @keyframes whatsapp_float_mesaj {
-   from {color: #0180c2;}
+   from {color: #daac1d;}
    to {color: #31CE80}
 }
 

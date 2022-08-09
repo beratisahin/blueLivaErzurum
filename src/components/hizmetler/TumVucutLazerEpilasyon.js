@@ -4,7 +4,7 @@ import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";
 
 export default function TumVucutLazerEpilasyon() {
-    useDocumentTitle('RobotX Lazer Epilasyon - Sasha Diamond Güzellik Merkezi');
+    useDocumentTitle('RobotX Lazer Epilasyon - Erzurum Blue Liva Güzellik Merkezi');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>

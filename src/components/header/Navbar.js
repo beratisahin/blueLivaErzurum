@@ -11,6 +11,7 @@ import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import ContactlessIcon from '@material-ui/icons/Contactless';
 import Logo from "./SashaDiamondMenuLogo.png";
 import CategoryIcon from '@material-ui/icons/Category';
+import Logo1 from "./Erzurum2.png";
 
 export default class Navbar extends Component {
   componentDidMount () {
@@ -33,7 +34,7 @@ export default class Navbar extends Component {
           <nav class="navbar">
             <div class="branding">
               <a href="/">
-                <img  className="SashaDiamondLogo" title="Kayseri Sasha Diamond Güzellik Salonu" src={Logo}></img>
+                <img  className="BlueLivaLogo" title="Erzurum Blue Liva Güzellik Merkezi" src={Logo1}></img>
               </a>
                 
             </div>

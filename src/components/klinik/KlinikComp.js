@@ -11,7 +11,7 @@ render() {
 
       <div className="item owl-slider">
           <div className="owlCarouselTempKlinik">
-              <img src={kampanyaResim} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
+              <img src={kampanyaResim} className="owlCarouselImageKlinik" alt="Erzurum Lazer Epilasyon" title="Erzurum Lazer Epilasyon"></img>
           </div>
           <div className="whatsapp_temp">
                 <a href={kampanyaAd} className="whatsapp_float_mesaj" target="_blank" rel="noopener noreferrer">Kampanya Hakkında Detaylı Bilgi İçin Tıklayın</a>

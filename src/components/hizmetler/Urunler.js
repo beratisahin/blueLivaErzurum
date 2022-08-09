@@ -7,7 +7,7 @@ import Hydrafacial2 from "./hydra2.jpg";
 import RobotX from "./robotx.png";
 
 export default function Urunler() {
-    useDocumentTitle('Cihazlarımız- Sasha Diamond Güzellik Merkezi');
+    useDocumentTitle('Cihazlarımız- Erzurum Blue Liva Güzellik Merkezi');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
