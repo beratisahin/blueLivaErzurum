@@ -34,7 +34,7 @@ export default class Foooter extends Component {
               <img
                 src={MainLogo2}
                 alt="logo"
-                style={{ width: "30rem", height: "22rem",display:"block",align:"center",margin:"auto" }}
+                style={{ width: "24rem", height: "18rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p
