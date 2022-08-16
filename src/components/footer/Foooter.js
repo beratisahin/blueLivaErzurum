@@ -6,12 +6,11 @@ import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
-import MainLogo from "../header/bl9.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-
+import MainLogo2 from "../header/bLLogo4.png";
 
 
 
@@ -33,9 +32,9 @@ export default class Foooter extends Component {
           <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
             <a href="/" title="Erzurum Blue Liva Güzellik Merkezi" alt="Erzurum Blue Liva Güzellik Merkezi">
               <img
-                src={MainLogo}
+                src={MainLogo2}
                 alt="logo"
-                style={{ width: "20rem", height: "20rem",display:"block",align:"center",margin:"auto" }}
+                style={{ width: "30rem", height: "22rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p
