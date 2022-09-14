@@ -162,7 +162,7 @@ header {
     flex-flow: column;
     position: absolute;
     background: var(--light);
-    top: 9rem;
+    top: 10rem !important;
     left: 0;
     right: 0;
     height: 50vh;
