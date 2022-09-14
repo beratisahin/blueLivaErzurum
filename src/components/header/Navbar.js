@@ -10,7 +10,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import ContactlessIcon from '@material-ui/icons/Contactless';
 import CategoryIcon from '@material-ui/icons/Category';
-import Logo2 from "./bLLogo4.png";
+import Logo2 from "./1-1.png";
 
 export default class Navbar extends Component {
   componentDidMount () {
