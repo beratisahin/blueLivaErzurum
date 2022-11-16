@@ -1,4 +1,4 @@
-import Taslak from "../taslakhizmet/Taslak.js";
+import Taslak from "../../taslakhizmet/Taslak.js";
 import "./TopluHizmet.css";
 import m1 from "./hizmetFotolar/bl1.webp";
 import m2 from "./hizmetFotolar/bl2.webp";
@@ -11,7 +11,7 @@ import { TextField } from "@material-ui/core";
 import { Button } from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import Send from "./Send.js";
+import Send from "../../topluhizmet/Send.js";
 
 export default class TopluHizmet extends Component {
   constructor(props) {
@@ -48,7 +48,7 @@ export default class TopluHizmet extends Component {
           <Taslak
             taslaktitle="Medikal Cilt Bakımı"
             taslakphoto={m2}
-            taslaktext="Titanyum Beauty Saloon olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+            taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
             taslaklink="/medikal-cilt-bakimi"
           />
           <Send />
@@ -57,7 +57,7 @@ export default class TopluHizmet extends Component {
           <Taslak
             taslaktitle="Robotix Lazer Epilasyon"
             taslakphoto={m5}
-            taslaktext="Titanyum Beauty Saloon olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+            taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
             taslaklink="/robotix-lazer-epilasyon"
           />
           <Send />
@@ -66,7 +66,7 @@ export default class TopluHizmet extends Component {
           <Taslak
             taslaktitle="Hydrafacial Cilt Bakımı"
             taslakphoto={m3}
-            taslaktext="Titanyum Beauty Saloon olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+            taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
             taslaklink="/hydrafacial-cilt-bakimi"
           />
           <Send />
@@ -75,7 +75,7 @@ export default class TopluHizmet extends Component {
           <Taslak
             taslaktitle="G5 Masajı - Kavitasyon"
             taslakphoto={m4}
-            taslaktext="Titanyum Beauty Saloon olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+            taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
             taslaklink="/g5-kavitasyon"
           />
           <Send />
@@ -84,7 +84,7 @@ export default class TopluHizmet extends Component {
           <Taslak
             taslaktitle="Kirpik Lifting"
             taslakphoto={m1}
-            taslaktext="Titanyum Beauty Saloon olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+            taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
             taslaklink="/kirpik-lifting"
           />
           <Send />
@@ -93,7 +93,7 @@ export default class TopluHizmet extends Component {
           <Taslak
             taslaktitle="Kaş Laminasyonu "
             taslakphoto={m6}
-            taslaktext="Titanyum Beauty Saloon olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
+            taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
             taslaklink="/kas-laminasyonu"
           />
           <Send />
