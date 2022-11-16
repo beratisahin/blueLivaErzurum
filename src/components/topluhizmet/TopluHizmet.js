@@ -1,11 +1,11 @@
 import Taslak from "../taslakhizmet/Taslak.js";
 import "./TopluHizmet.css";
-import m1 from "./hizmetFotolar/bl1.jpg";
+import m1 from "./hizmetFotolar/bl1.webp";
 import m2 from "./hizmetFotolar/bl2.webp";
-import m3 from "./hizmetFotolar/bl3.jpg";
-import m4 from "./hizmetFotolar/bl4.jpg";
-import m5 from "./hizmetFotolar/bl5.jpg";
-import m6 from "./hizmetFotolar/bl6.jpg";
+import m3 from "./hizmetFotolar/bl3.webp";
+import m4 from "./hizmetFotolar/bl4.webp";
+import m5 from "./hizmetFotolar/bl5.webp";
+import m6 from "./hizmetFotolar/bl6.webp";
 import React, { Component } from "react";
 import { TextField } from "@material-ui/core";
 import { Button } from "@material-ui/core";
