@@ -23,7 +23,7 @@ function Hakkimizda() {
                 </p> 
 
                 <p class="hizmetyazi">
-                Blue Liva olarak Lazer Epilasyon, G5 Masajı, Kavitasyon, Kirpik Lfiting, kaş Laminasyonu, PRP, Botoks, Hacamat, Medikal ve Hydrafacial Cilt Bakımı hizmetlerimiz mevcuttur. Kampanaylarımız ve detaylar için sosyal medya hesaplarımızı takipte kalın.
+                Blue Liva olarak Lazer Epilasyon, G5 Masajı, Kavitasyon, Kirpik Lfiting, kaş Laminasyonu, Medikal ve Hydrafacial Cilt Bakımı hizmetlerimiz mevcuttur. Kampanaylarımız ve detaylar için sosyal medya hesaplarımızı takipte kalın.
                 Erzurum Blue Liva Güzellik Salonu olarak şehrin merkezinde bulunan salonumuzda siz değerli müşterilerimize hizmet vermekteyiz. Bayanlar ve baylar için epilasyon ve cilt bakım hizmetlerimiz bulunmaktadır. Erkekler için ense, boyun, yanak, göbek, göğüs, sırt, bacak ve kol bölgeleri epilasyon hizmetimiz vardır. Ayrıca medikal ve hydrafacial cilt bakımlarımız da bulunmaktadır. Bayanlar için tüm vücut, bikini bölgesi için epilasyon hizmetlerimiz mevcuttur. Hydrafacial ve medikal cilt bakımlarımız bulunmaktadır. G5 masajı, selülit sıkılaştırma, bölgesel inceltme hizmetlerimiz mevcuttur. RobotX marka epilasyon cihazlarımızla 6 odalı salonumuzda aynı anda birkaç müşterimize hizmet verebilmekteyiz.</p>    
             </div>
         </div>
