@@ -1,0 +1,29 @@
+User-Agent: *
+Allow: 
+Allow: /
+User-Agent: Googlebot
+Allow: /
+User-Agent: Googlebot-Mobile
+Allow: /
+
+User-Agent: Googlebot-Image
+Allow: /
+
+User-Agent: Mediapartners-Google
+Allow: /
+
+User-Agent: Adsbot-Google
+Allow: /
+
+User-Agent: Slurp
+Disallow: /
+
+User-Agent: msnbot
+Disallow: /
+
+User-Agent: msnbot-media
+Disallow: /
+
+User-Agent: Teoma
+Disallow: /
+

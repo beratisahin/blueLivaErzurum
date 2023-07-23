@@ -1,0 +1,64 @@
+.accPho{
+    float:left !important;
+    
+    
+}
+.accordion-body{
+    height: auto !important;
+}
+.accordion-button{
+    font-size: large !important;
+}
+#collapseOne{
+    
+    height:auto;
+    overflow:hidden;
+
+}
+
+#collapseTwo{
+    
+    height:auto;
+    overflow:hidden;
+    
+}
+#collapseThree{
+    
+    height:auto;
+    overflow:hidden;
+    
+}
+
+
+.urunyazi{
+    font-size: medium !important;
+    text-align: justify !important;
+    position: relative;
+    left: 2rem !important;
+}
+.urunbaslik{
+    font-size: medium !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    position: relative;
+    left: 2rem !important;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 700px) {
+    .urunyazi{
+        font-size: small !important;
+        position: relative;
+        left: 0rem !important;
+    }
+    .urunbaslik{
+        font-size: medium !important;
+        position: relative;
+        left: 0rem !important;
+    }
+    .accPho{
+        width: 100% !important;
+        
+    }
+
+}

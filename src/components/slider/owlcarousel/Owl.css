@@ -1,0 +1,64 @@
+.owl-slider{
+   
+   width:100% !important;
+   margin: 0.5rem;
+   margin-top: 1rem;  
+}
+
+
+.owlCarouselContent{
+   text-align: center;
+   padding: 1rem;
+   margin: auto;
+   font-size: medium;
+   z-index: +10;
+   position: relative;
+   bottom: 4rem !important;
+   
+}
+.owlCarouselImage{
+   height: 25rem;
+   width: 20rem;
+   border-radius: 1rem;
+   
+   
+}
+/* Opacity #1 */
+.owlCarouselImage{
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.owlCarouselImage:hover{
+	opacity: .5;
+   border: 3px groove #2FA8BC;
+   border-radius: 30%;
+}
+
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 700px) {
+    
+     .owl-roof{
+         margin: 0.5rem !important;
+         width:100% !important;
+     }
+     .owlCarouselContent{
+        font-size: small !important;
+     }
+     .owlCarouselImage{
+       height: 24rem !important;
+       
+      
+     }
+     .owlCarouselTemp{
+      display: block !important;
+      justify-content: center !important;
+      
+      
+   }
+ 
+    
+}

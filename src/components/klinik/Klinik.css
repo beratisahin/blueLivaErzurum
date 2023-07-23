@@ -1,0 +1,179 @@
+.owl-slider{
+   
+    width:100% !important;
+    margin: 0.5rem;
+    margin-top: 1rem;  
+ }
+ .owlCarouselTempKlinik{
+    
+    border-radius: 1rem; 
+    height: auto;
+    width: 95%;
+ }
+ 
+ .owlCarouselContentDoktor{
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    font-size: large;
+ }
+ .owlCarouselImageKlinik{
+    height: 37rem;
+    width: 30rem;
+    margin-left: .5rem;
+    border-radius: 1rem 1rem 0 0;
+    border: 1px groove lightgray;
+    padding: 2px !important;
+ }
+ /* Opacity #1 */
+ .owlCarouselImageKlinik{
+     opacity: 1;
+     -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+ }
+ .owlCarouselImageKlinik:hover{
+     opacity: .5;
+    border: 3px groove #2FA8BC;
+ }
+ 
+
+ .whatsapp-ic {
+     
+   font-size: x-large !important;
+   display: block !important;
+   margin: auto !important;
+   margin-top: 2.2px !important;
+   
+}
+.whatsapp_temp{
+   background-color:#FFFFFF;
+   width:95%;
+   height:5rem;
+   border-radius:0 0 1rem 1rem;
+   margin-left: .5rem;
+   border-right: 1px solid lightgray;
+   border-left: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+}
+.whatsapp_temp:hover{
+   background-color:#FFFBEB;
+   border-right: 1px solid #2FA8BC;
+   border-left: 1px solid #2FA8BC;
+   border-bottom: 1px solid #2FA8BC;
+}
+
+ /* for desktop */
+.whatsapp_float_kampanya {
+   position: fixed;
+   width: 30px;
+   height: 30px;
+   bottom: 15px;
+   right: 30px;
+   background-color: #25d366;
+   color: #FFF;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 30px;
+   box-shadow: 2px 2px 3px #999;
+   z-index: 100;
+     
+}  
+
+.roof-whatsapp_kampanya{
+ background-color:green ;
+ position: fixed;
+ bottom: 10px;
+ right: 25px;
+ width: 40px;
+ height: 40px;
+ border-radius: 50px;
+ transition: 0.6s linear;
+ animation-duration: 50ms;
+ border:2px green solid;
+ animation-name: roof-whatsapp_kampanya;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+ z-index: 1000;
+}
+/* The animation code */
+@keyframes roof-whatsapp_kampanya {
+   from {background-color: green;}
+   to {background-color: white}
+}
+
+.whatsapp_float_mesaj{
+   margin:auto !important;
+   display: block !important;
+   padding: 10px !important;
+   vertical-align: middle !important;
+   font-size: medium;
+   text-decoration: none !important;
+   animation-name: whatsapp_float_mesaj;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   
+}
+.whatsapp_float_mesaj:hover{
+   color:#af832b !important;
+}
+
+/* The animation code */
+@keyframes whatsapp_float_mesaj {
+   from {color: #2FA8BC;}
+   to {color: #31CE80}
+}
+
+
+
+
+
+
+
+.roof-whatsapp_kampanya:hover{
+ background-color:white ;
+ 
+
+}
+
+
+ 
+ 
+ 
+ /* On screens that are 600px or less, set the background color to olive */
+ @media screen and (max-width: 700px) {
+     
+      .owl-roof{
+          margin: auto !important;
+          width:90% !important;
+          justify-content: center !important;
+      }
+      .owlCarouselContentDoktor{
+         font-size: medium !important;
+      }
+      .owlCarouselImageKlinik{
+        height: 25rem !important;
+        margin: auto !important;
+        display: block !important;
+        justify-content: center !important;
+        
+       
+      }
+      .owlCarouselTempKlinik{
+       display: block !important;
+       justify-content: center !important;
+      }
+      .whatsapp_temp{
+        margin-left: 0 !important;
+        
+        
+
+      }
+      .whatsapp_float_mesaj{
+        font-size: small !important;
+        margin-left: 0,1px !important;
+        padding-left: 0,1px !important;
+      }
+      
+  
+     
+ }

@@ -1,0 +1,218 @@
+.image{
+    background-color: #FFFFFF;
+    position: relative;
+    flex: 1;
+    /*max-width: 460px;*/
+    width: 100% !important;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    border:2px solid #F3F3F3;
+    border-radius: 1rem !important;
+    
+   
+  }
+  .image:hover{
+    
+    border:2px outset #2FA8BC !important;
+    
+  }
+
+  .image img{
+    opacity: 0.8;
+    position: relative;
+    vertical-align:top;
+    transition: 0.6s;
+    transition-property: opacity;
+    height: 350px;
+    width: 100%;
+    border-radius: 5px;
+   
+  }
+  
+  .image:hover img{
+    opacity: 0;
+   
+    
+    
+  }
+  
+  .image .details{
+    z-index: 1;
+    position: absolute;
+    top:0;
+    right: 0;
+    color:#3d667c !important;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  image .details h2{
+    text-align: center;
+    font-size: x-large !important;
+    font-weight: 900 !important;
+    margin-top: 50px !important;
+    transition: 0.4s;
+    transition-property: transform;
+    color: #168B80 !important;
+    font-weight: bolder !important;
+  }
+
+  .serviceTitle{
+    text-decoration:none !important; 
+    /*color:#168B80 !important #3c667c;
+    font-weight:bolder !important;*/
+    font-size:x-large !important;
+
+    color: white;
+    background-color: #2FA8BC; /* #2FA8BC; */
+    opacity: 0.7;
+    width: 100% !important;
+    height: 5rem !important;
+    margin:auto;
+    justify-content: center;
+    padding-top: 1rem;
+    border-radius: 5px 30px 5px 30px;
+
+  }
+
+  
+  .image:hover .details h2{
+    transform:translateY(-60px) !important;
+  }
+  
+  .image .details p{
+    margin:20px 30px 0 30px;
+    font-size: medium !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s;
+    transition-property: opacity,transform;
+    
+  }
+  
+  .image:hover .details p{
+    opacity: 1;
+    transform:translateY(-60px) !important;
+  }
+  
+  .more{
+    position:absolute;
+    /*background: rgba(120,255,255, 0.8) !important;*/
+    background: #F6F6F6 !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 15px;
+    margin-left: -10px;
+    margin-right: 5px; */
+    bottom:-60px;
+    transition: 0.6s;
+    transition-property: bottom;
+    border-top: 1px solid #2FA8BC; 
+    border-radius: 5px 5px 0px 0px;
+  }
+  .image:hover .more{
+    bottom:0;
+   
+  }
+  
+  .more .read-more{
+    /*color:#3d667c !important; */
+    text-decoration: none;
+    font-size: large !important;
+    font-weight: 500;
+    z-index: +1 !important;
+
+    animation-duration: 50ms;
+    animation-name: read-more;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+  }   
+
+
+/* The animation code */
+@keyframes read-more{
+  from {color: #25D366;}
+  to {color: #2FA8BC;}
+}
+
+   
+    
+  
+  .more .read-more span{
+    font-weight: 900;
+  }
+  .more:hover .read-more{
+    color:black !important;
+  }
+  .more .icon-links i{
+    color:#000;
+    font-size: 20px;
+  }
+  .more .icon-links a:not(:last-child) i{
+    margin-right:15px;
+  }
+  
+  
+  @media (max-width: 1080px) {
+    .image{
+      flex: 100%;
+      /*max-width: 480px;*/
+    }
+    .image{
+        height: 250px;
+    }
+    .image img{
+        height: 300px;
+    }
+    .serviceTitle{
+      font-size: 2rem !important;
+    }
+    
+  }
+  @media (max-width: 700px){
+    .image img{
+        height: 300px !important;
+        width: 100% !important;
+    }
+    .image{
+        height: 250px !important;
+    }
+    .more .read-more{
+        font-size: medium !important;
+        font-weight: bolder !important;
+    }
+    .image .details p{
+        font-size: small !important;
+    }
+    .more{
+      height: 4rem !important;
+    }
+    
+
+  }
+  @media (max-width: 400px){
+    .image .details p{
+      font-size: 16px;
+    }
+    .more .read-more, .more .icon-links a i{
+      font-size: 18px;
+    }
+    .image img{
+        height: 200px;
+    }
+    .image{
+        height: 180px;
+    }
+    .more{
+      height: 4rem !important;
+    }
+  }
+  
+  

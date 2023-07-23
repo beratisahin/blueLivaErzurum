@@ -1,0 +1,45 @@
+.harita_baslik{
+  font-size: medium !important;
+  color: #2FA8BC;
+  text-align: center !important;
+}
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  
+    
+      .doktorlarTitle{
+        font-size: medium !important;
+      }
+    .harita{
+        height:30rem !important;
+        margin-bottom: 1rem !important;
+  
+      }
+      .googleharita{
+        height:30rem !important;
+        
+      }
+      .servicebox{
+          margin-top: -15rem !important;
+      }
+      .homepageSlider{
+        margin-top: 3rem !important;
+        display: "none" !important;
+        width: 100% !important;
+      }
+      .react-player{
+        display:flex !important;
+        margin-bottom: 2rem !important;
+      }
+      .acilis{
+        display:flex !important;
+        margin-bottom: 2rem !important;
+        width:100% !important;
+        height: auto !important;
+      }
+      
+ 
+ }

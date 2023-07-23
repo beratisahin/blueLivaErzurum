@@ -1,0 +1,84 @@
+.contact {
+
+    width: 100%;
+    display: block;
+}
+
+.gonder:hover {
+    background-color: #af832b !important;
+}
+.contactInfo{
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    color:#2FA8BC;
+    margin-bottom: 2rem !important;
+}
+
+.contactIcons{
+    margin: auto !important;
+    justify-content: center !important;
+    display: block;
+    width: 12rem;
+    height: 12rem;
+}
+.contactText{
+    text-align: center !important;
+    font-size: medium;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1370px) {
+
+    .iletisimegec {
+        font-size: large !important;
+        padding-left: -1rem !important;
+        font-weight: bold !important;
+    }
+
+    .yardim {
+        font-size: medium !important;
+        padding-left: -1rem !important;
+
+    }
+
+
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+
+    .iletisimegec {
+        font-size: medium !important;
+        padding-left: -1rem !important;
+        font-weight: bold !important;
+
+
+    }
+
+    .yardim {
+        font-size: small !important;
+        padding-left: -1rem !important;
+
+    }
+
+    .gonder {
+        justify-content: center !important;
+        margin-left: -2rem !important;
+    }
+
+    .contactFormTemp {
+        background-color: #DCDCDC !important;
+        background-image: none !important;
+
+    }
+    .contactIcons{
+        
+        width: 9rem;
+        height: 9rem;
+    }
+
+
+}

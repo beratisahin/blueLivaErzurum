@@ -1,0 +1,49 @@
+.page_header{
+    
+    background-image: url("./bgi3.jpg");
+    height: 4rem;
+}
+.page_header_home{
+    font-size: medium;
+    color:#E1DFDF;
+    text-decoration: none;
+    float: left;
+    padding: 3rem;
+}
+.page_header_home:hover{
+    text-decoration: none !important;
+    color: #2FA8BC!important;
+    
+    
+}
+
+
+.page_header_title{
+    font-size: medium;
+    color:white;
+    margin: auto;
+    padding: 3rem;
+    padding-left: 0;
+    
+    float: left;
+    vertical-align: middle !important;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .page_header{
+        height: 7rem !important;
+    }
+    .page_header_icon{
+        width: 6rem !important;
+        height: 6rem !important;
+    }
+    .page_header_home{
+        display: none !important;
+    }
+    .page_header_title{
+        font-size: medium !important;
+        padding: 2rem !important;
+    }
+
+}

@@ -1,0 +1,28 @@
+.hizmetyazi{
+    font-size: medium !important;
+}
+.yImg{
+    background-color: #FFFFFF;
+    position: relative;
+    flex: 1;
+    /*max-width: 460px;*/
+    width: 100% !important;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    border:2px solid #F3F3F3;
+    border-radius: 1rem !important;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 700px) {
+    .hizmetyazi{
+        font-size: small !important;
+    }
+    .yImg{
+        width: 100% !important;
+        margin: auto !important;
+        justify-content: center !important;
+        height: 250px;
+    }
+}

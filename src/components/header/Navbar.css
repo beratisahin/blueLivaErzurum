@@ -1,0 +1,290 @@
+:root {
+  box-sizing: border-box;
+
+  --primary: #2E6772;
+  --hover-color: black;
+  --dark: #1c2022;
+  --light: #fff;
+
+  --header-bg: var(--primary);
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "josefin sans", "helvetica", sans-serif;
+  font-size: 2rem;
+}
+
+header {
+  background: var(--header-bg);
+  padding-left: 0.5em;
+  position: sticky;
+  top: 0;
+  z-index: +1001;
+  background-color: #EEEEEE; /*#E2E2E2;  #fcfcfc*/ 
+}
+
+.branding-logo{
+  color:var(--light);
+  font-size: medium;
+  text-decoration: none;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: #2FA8BC ; /*2E6772  #168B80*/ 
+  padding: 1em 1.5em;
+  font-size: smaller;
+  font-weight: bold;
+  
+ 
+}
+
+/* Styling submenu */
+.has-dropdown {
+  position: relative;
+}
+.submenu {
+  position: absolute;
+  left: 0;
+  background-color: #EEEEEE;
+  white-space: nowrap;
+  padding: 1.5em 0;
+  min-width: 16em;
+  font-size: small;
+  
+
+  /* hide submenus */
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+.submenu > li > a {
+  padding: 0.8em 1.5em;
+}
+.submenu .submenu {
+  left: -100%;
+  top: 0;
+  
+}
+.submenu .submenu .submenu {
+  left: -100%;
+  top: 0;
+}
+
+/*.menu > li:hover > a,*/
+.submenu > li:hover > a {
+  background-color:#fcfcfc;
+  color: var(--hover-color);
+}
+.menu > li:hover > a {
+  color:black;
+}
+
+/* Arrows */
+
+.arrow {
+  width: 0.5em;
+  height: 0.5em;
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 0.15em solid currentColor;
+  border-bottom: 0.15em solid currentColor;
+  transform: rotate(-45deg);
+  margin-top: -0.25em;
+  transition: transform 100ms ease-in-out;
+}
+
+/* Reveal  */
+.menu > li:hover > a + .submenu,
+.submenu > li:hover > a + .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+/* ANIMATE aRROWS */
+.menu > li:hover > a > .arrow,
+.submenu > li:hover > a > .arrow {
+  transform: rotate(225deg);
+}
+
+.LavinyaLogo{
+  width: 16rem !important;
+  height:8rem !important;
+  
+  
+}
+
+@media only screen and (max-width: 78.75em) {
+  .submenu .submenu .submenu {
+    left: -100%;
+    top: 0.5em;
+  }
+  .submenu {
+    min-width: 16em;
+  }
+}
+@media only screen and (max-width: 58.75em) {
+  .menu li a {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  header {
+/*     position: relative; */
+    padding: 1em 1.5em ;
+    height: 12rem;
+    
+  }
+  .menu {
+    flex-flow: column;
+    position: absolute;
+    background: var(--light);
+    top: 10rem !important;
+    left: 0;
+    right: 0;
+    height: 50vh;
+
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: 200ms transform cubic-bezier(0.36, 0.4, 0.42, 1.48) 100ms,
+      100ms opacity ease-in-out;
+    
+    overflow-y: scroll;
+    
+  }
+  .menu > li > a {
+    font-size: medium;
+    color: var(--dark);
+    padding: 0.5em 1em;
+  }
+  .submenu > li > a {
+    font-size: small;
+  }
+
+  .submenu {
+    top: 0;
+    padding-left: 1.5em;
+    border-left: 0.12em dotted #3c667c;
+  }
+  .submenu .submenu {
+    left: 0;
+    top: 0;
+  }
+  .submenu .submenu .submenu {
+    left: 0;
+    top: 0;
+  }
+
+  .menu > li:hover > a + .submenu,
+  .submenu > li:hover > a + .submenu {
+    position: relative;
+  }
+
+  .hamburger {
+    width: 2em;
+    height: 0.25em;
+    display: block;
+    background-color: #2FA8BC !important;
+    /*background: var(--light);*/
+    position: absolute;
+    right: 1rem !important;
+    top:1.2rem !important;
+    cursor: pointer;
+    transition: 0.2s transform ease-in-out;
+    
+    
+
+  }
+  .hamburger::after,
+  .hamburger::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: inherit;
+    width: inherit;
+    height: inherit;
+    
+    transition: 0.2s transform ease-in-out;
+  }
+
+  .hamburger::after {
+    top: 0.65em;
+  }
+  .hamburger::before {
+    bottom: 0.65em;
+  }
+
+  .close::after,
+  .close::before {
+    top: 0;
+    transition: 0.2s transform ease-in-out;
+  }
+  .close::before {
+    display: none;
+  }
+  .close {
+    transform: rotate(45deg);
+    transition: 0.2s transform ease-in-out;
+  }
+  .close::after {
+    transform: rotate(-90deg);
+  }
+
+  /* reveal menu */
+  input[type="checkbox"]:checked + .menu {
+    position: absolute;
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+  .LavinyaLogo{
+    width: 16rem !important;
+    height: 8rem !important;
+    float: left !important;
+    /* /margin-left: -12rem !important;
+    margin-top: -1rem !important;
+    */
+    
+  }
+ 
+}
+
+.branding-logo{
+  position: absolute;
+  margin-top: 0.2rem !important;
+  margin-left: 0.2rem !important;
+}
+.branding{
+  float: left !important;
+  margin-left: 0 !important;
+}
+
+
+main {
+/* just to make scrollable vertically to see sticky navbar    */
+  height: 200vh;
+}
