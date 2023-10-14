@@ -69,7 +69,7 @@ export default class Foooter extends Component {
 
           <div className="roof-phone">
             <a
-              href="tel: +905526350125" 
+              href="tel: +905075994155" 
               className="phone_float"
               target="_blank"
               rel="noopener noreferrer"
@@ -80,7 +80,7 @@ export default class Foooter extends Component {
 
           <div className="roof-whatsapp">
             <a
-              href="https://wa.me/+905526350125"
+              href="https://wa.me/+905075994155"
               className="whatsapp_float"
               target="_blank"
               rel="noopener noreferrer"

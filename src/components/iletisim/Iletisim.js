@@ -43,7 +43,7 @@ function Iletisim() {
               className="contactIcons"
               title="Epilasyon Konum"
             ></img>
-            <p className="contactText"><b>Rezervasyon:</b> <br/>0552 635 01 25</p>
+            <p className="contactText"><b>Rezervasyon:</b> <br/>0507 599 41 55</p>
           </div>
           <div class="col-lg-6s col-md-6 col-sm-12 col-12">
             <img
@@ -59,7 +59,7 @@ function Iletisim() {
               className="contactIcons"
               title="Epilasyon Konum"
             ></img>
-            <p className="contactText"><b>WhatsApp:</b> <br/>0552 635 01 25</p>
+            <p className="contactText"><b>WhatsApp:</b> <br/>0507 599 41 55</p>
           </div>
         </div>
       </div>

@@ -32,7 +32,7 @@ function Iletisim() {
       </div>
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">
         <a
-          href="tel: +905526350125"
+          href="tel: +905075994155"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -40,7 +40,7 @@ function Iletisim() {
         </a>
         <p className="contactText">
         <span style={{color:"#2B7785"}}><b>Rezervasyon:</b></span><br/>
-          <b>0552 635 01 25</b>
+          <b>0507 599 41 55</b>
         </p>
       </div>
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">
@@ -51,12 +51,12 @@ function Iletisim() {
         </p>
       </div>
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">
-      <a href="https://wa.me/+905526350125" target="_blank">
+      <a href="https://wa.me/+905075994155" target="_blank">
           <img src={i4} className="contactIcons" title="WhatsApp için İkona Tıklayınız"></img>
         </a>
         <p className="contactText">
         <span style={{color:"#2B7785"}}><b>WhatsApp:</b></span><br/>
-          <b>0552 635 01 25</b>
+          <b>0507 599 41 55</b>
         </p>
       </div>
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">

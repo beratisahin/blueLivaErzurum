@@ -57,31 +57,31 @@ export default function Klinik() {
                  
                <KampComp
                     kampanyaResim={k1}
-                    kampanyaAd="https://wa.me/+905526350125?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20T%C3%BCm%20Bacak%2C%20Koltukalt%C4%B1%20ve%20Genital%20B%C3%B6lge%20Lazer%20Epilasyon%20(10%20Seans%20999%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905075994155?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20T%C3%BCm%20Bacak%2C%20Koltukalt%C4%B1%20ve%20Genital%20B%C3%B6lge%20Lazer%20Epilasyon%20(10%20Seans%20999%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k2}
-                    kampanyaAd="https://wa.me/+905526350125?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20T%C3%BCm%20V%C3%BCcut%20Lazer%20Epilasyon%20(10%20Seans%201499%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905075994155?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20T%C3%BCm%20V%C3%BCcut%20Lazer%20Epilasyon%20(10%20Seans%201499%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
                 <KampComp
                     kampanyaResim={k3}
-                    kampanyaAd="https://wa.me/+905526350125?text=Merhaba%2C%20Baylar%20i%C3%A7in%20Ense%2C%20Boyun%20ve%20Yanak%20Lazer%20Epilasyon%20(20%20Seans%20650%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905075994155?text=Merhaba%2C%20Baylar%20i%C3%A7in%20Ense%2C%20Boyun%20ve%20Yanak%20Lazer%20Epilasyon%20(20%20Seans%20650%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k4}
-                    kampanyaAd="https://wa.me/+905526350125?text=Merhaba%2C%20Baylar%20i%C3%A7in%20Kemer%20%C3%9Cst%C3%BC%20Lazer%20Epilasyon%20(10%20Seans%201499%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905075994155?text=Merhaba%2C%20Baylar%20i%C3%A7in%20Kemer%20%C3%9Cst%C3%BC%20Lazer%20Epilasyon%20(10%20Seans%201499%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k5}
-                    kampanyaAd="https://wa.me/+905526350125?text=Merhaba%2C%20Hydrafacial%20Cilt%20Bak%C4%B1m%C4%B1%20(4%20Seans%20699%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905075994155?text=Merhaba%2C%20Hydrafacial%20Cilt%20Bak%C4%B1m%C4%B1%20(4%20Seans%20699%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k6}
-                    kampanyaAd="https://wa.me/+905526350125?text=Merhaba%2C%20Kavitasyon%20B%C3%B6lgesel%20Zay%C4%B1flama%20(6%20Seans%20699%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905075994155?text=Merhaba%2C%20Kavitasyon%20B%C3%B6lgesel%20Zay%C4%B1flama%20(6%20Seans%20699%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
             </OwlCarousel>
         </div>    
